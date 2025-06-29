@@ -7,98 +7,93 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Hi, I'm Vishal 👋</h1>
-    <p>iOS Developer | Swift | SwiftUI | Bitbucket Enthusiast</p>
+
+  <!-- Sticky Dark Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <h1 class="logo">Vishal Parmar</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Section Navigation -->
-  <div class="container text-center mt-3 section-links">
-    <a class="btn btn-outline-dark mx-1" href="#summary">Summary</a>
-    <a class="btn btn-outline-dark mx-1" href="#skills">Technical Skills</a>
-    <a class="btn btn-outline-dark mx-1" href="#experience">Professional Experience</a>
-    <a class="btn btn-outline-dark mx-1" href="#education">Education</a>
-  </div>
+  <!-- Main Content -->
+  <main>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="about-container">
-      <img src="assets/profile.jpeg" alt="Profile Photo" class="profile-img" />
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>I’m an iOS developer passionate about clean design, smooth UX, and writing elegant Swift code. Welcome to my world of projects and creativity.</p>
+    <section id="summary" class="section">
+      <div class="card">
+        <h2>Summary</h2>
+        <p>Senior iOS Developer with 9+ years of experience building high-performance apps using Swift and Objective-C. Expert in mobile UI/UX design, Core Data, APIs, and App Store deployment.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Summary -->
-  <section id="summary" class="profile-section">
-    <div class="profile-card">
-      <h2>Summary</h2>
-      <p>Senior iOS Developer with 9+ years of experience creating performance-optimized apps using Swift and Objective-C. Adept at UI/UX collaboration, system integrations, and delivering enterprise-level mobile solutions.</p>
-    </div>
-  </section>
+    <section id="skills" class="section">
+      <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Languages: Swift, Objective-C</li>
+          <li>Frameworks: SwiftUI, UIKit, Core Data, Combine</li>
+          <li>Tools: Xcode, Bitbucket, Git, Firebase</li>
+          <li>Platforms: iOS, iPadOS</li>
+        </ul>
+      </div>
+    </section>
 
-  <!-- Technical Skills -->
-  <section id="skills" class="profile-section">
-    <div class="profile-card">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li>Languages: Swift, Objective-C</li>
-        <li>Frameworks: SwiftUI, UIKit, Core Data, Combine</li>
-        <li>Tools: Xcode, Bitbucket, Git, Firebase</li>
-        <li>Platforms: iOS, iPadOS</li>
-      </ul>
-    </div>
-  </section>
+    <section id="experience" class="section">
+      <div class="card">
+        <h2>Professional Experience</h2>
+        <p><strong>iOS Developer – XYZ Tech (2022–Present)</strong></p>
+        <ul>
+          <li>Developed scalable iOS applications for enterprise clients.</li>
+          <li>Implemented MVVM architecture with RESTful integrations.</li>
+        </ul>
+      </div>
+    </section>
 
-  <!-- Experience -->
-  <section id="experience" class="profile-section">
-    <div class="profile-card">
-      <h2>Professional Experience</h2>
-      <p><strong>iOS Developer</strong> – XYZ Tech (2022–Present)</p>
-      <ul>
-        <li>Led a team in building scalable iOS applications for retail clients.</li>
-        <li>Implemented MVVM architecture and integrated RESTful APIs.</li>
-        <li>Optimized memory usage and improved app performance by 30%.</li>
-      </ul>
-    </div>
-  </section>
+    <section id="education" class="section">
+      <div class="card">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Computer Applications</strong><br> University of Gujarat (2019–2022)</p>
+      </div>
+    </section>
 
-  <!-- Education -->
-  <section id="education" class="profile-section">
-    <div class="profile-card">
-      <h2>Education</h2>
-      <p><strong>Bachelor of Computer Applications</strong> – University of Gujarat (2019–2022)</p>
-    </div>
-  </section>
+    <section id="projects" class="section">
+      <div class="card">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Expense Tracker</h3>
+          <p>SwiftUI-based app for managing personal finances.</p>
+          <a href="https://bitbucket.org/yourrepo">View on Bitbucket</a>
+        </div>
+        <div class="project">
+          <h3>Weather App</h3>
+          <p>Live forecasts with CoreLocation and OpenWeather API.</p>
+          <a href="https://bitbucket.org/yourrepo2">View on Bitbucket</a>
+        </div>
+      </div>
+    </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Expense Tracker</h3>
-      <p>A SwiftUI-based app for tracking personal expenses.</p>
-      <a href="https://bitbucket.org/yourrepo">View on Bitbucket</a>
-    </div>
-    <div class="project-card">
-      <h3>Weather App</h3>
-      <p>Uses CoreLocation and OpenWeather API to show live forecasts.</p>
-      <a href="https://bitbucket.org/yourrepo2">View on Bitbucket</a>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: vishalvp125@gmail.com</p>
-    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/vishal-parmar-51a418167/</a></p>
-  </section>
+    <section id="contact" class="section">
+      <div class="card">
+        <h2>Contact Me</h2>
+        <p>Email: vishalvp125@gmail.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/vishal-parmar-51a418167</a></p>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer>
+  <footer class="site-footer">
     <p>© 2025 Vishal. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
