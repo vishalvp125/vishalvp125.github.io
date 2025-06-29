@@ -1,99 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>John's iOS Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Reddy's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Sticky Dark Header -->
-  <header class="site-header">
-    <div class="nav-container">
-      <h1 class="logo">Vishal Parmar</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-
-    <section id="summary" class="section">
-      <div class="card">
-        <h2>Summary</h2>
-        <p>Senior iOS Developer with 9+ years of experience building high-performance apps using Swift and Objective-C. Expert in mobile UI/UX design, Core Data, APIs, and App Store deployment.</p>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="card">
-        <h2>Technical Skills</h2>
-        <ul>
-          <li>Languages: Swift, Objective-C</li>
-          <li>Frameworks: SwiftUI, UIKit, Core Data, Combine</li>
-          <li>Tools: Xcode, Bitbucket, Git, Firebase</li>
-          <li>Platforms: iOS, iPadOS</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="card">
-        <h2>Professional Experience</h2>
-        <p><strong>iOS Developer – XYZ Tech (2022–Present)</strong></p>
-        <ul>
-          <li>Developed scalable iOS applications for enterprise clients.</li>
-          <li>Implemented MVVM architecture with RESTful integrations.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="card">
-        <h2>Education</h2>
-        <p><strong>Bachelor of Computer Applications</strong><br> University of Gujarat (2019–2022)</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="card">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>Expense Tracker</h3>
-          <p>SwiftUI-based app for managing personal finances.</p>
-          <a href="https://bitbucket.org/yourrepo">View on Bitbucket</a>
+    <header class="py-3">
+        <div class="container text-center">
+            <h1 class="display-4">Mohan Reddy Bijjam</h1>
+            <p class="lead">Senior iOS Developer</p>
         </div>
-        <div class="project">
-          <h3>Weather App</h3>
-          <p>Live forecasts with CoreLocation and OpenWeather API.</p>
-          <a href="https://bitbucket.org/yourrepo2">View on Bitbucket</a>
+        <div class="container text-center mt-3">
+            <a class="btn btn-outline-dark mx-1" href="#summary">Summary</a>
+            <a class="btn btn-outline-dark mx-1" href="#skills">Technical Skills</a>
+            <a class="btn btn-outline-dark mx-1" href="#experience">Professional Experience</a>
+            <a class="btn btn-outline-dark mx-1" href="#education">Education</a>
         </div>
-      </div>
+    </header>
+
+    <section id="summary" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Summary</h2>
+            <p>Senior iOS Developer with over 9 years of experience in designing, developing, and deploying Swift and Objective-C applications. Led a team to deliver high-performance iOS applications with a focus on performance optimization and intuitive UI/UX design. Proficient in all stages of the SDLC, applying SOLID principles for maintainable and scalable applications. Experienced in CI/CD, multi-threading, and integrating system frameworks for feature-rich apps. Known for delivering high-quality projects and possessing strong analytical and leadership skills.</p>
+        </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="card">
-        <h2>Contact Me</h2>
-        <p>Email: vishalvp125@gmail.com</p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/vishal-parmar-51a418167</a></p>
-      </div>
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Technical Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Programming Languages:</strong> Swift, Objective-C, C++, TypeScript, JavaScript</li>
+                <li class="list-group-item"><strong>Frameworks & UI:</strong> SwiftUI, Combine, UIKit, CoreData, CoreAnimation, CoreBluetooth, CoreLocation, CocoaTouch, Auto Layout, MapKit, AVFoundation, React Native, WebKit, MVVM, MVC</li>
+                <li class="list-group-item"><strong>Networking & Data Format:</strong> RESTful APIs, GraphQL, URL Session, Web Socket, JSON, XML, Alamofire, RxSwift</li>
+                <li class="list-group-item"><strong>Cloud & Backend:</strong> Firebase (Crashlytics, Messaging, Firestore, Performance), AWS, GCP</li>
+                <li class="list-group-item"><strong>Testing & Debugging:</strong> XCTest, XCUITest, BDD, Appium, Instruments, Memory Graph Debugger</li>
+                <li class="list-group-item"><strong>Multi-threading:</strong> Grand Central Dispatch, Operations, queues, Concurrency(async/await)</li>
+                <li class="list-group-item"><strong>Dependency Management:</strong> Cocoapods, Swift Package Manager (SPM)</li>
+                <li class="list-group-item"><strong>Other Tools:</strong> Xcode, Git, GitHub, BitBucket, JIRA, Confluence, Jenkins, Fastlane, Postman</li>
+            </ul>
+        </div>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>© 2025 Vishal. All rights reserved.</p>
-  </footer>
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Professional Experience</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title"><a href="https://apps.apple.com/us/app/michaels-stores/id445458809" target="_blank">Michaels</a></h3>
+                    <p class="card-text">Senior iOS Developer, Dallas, TX</p>
+                    <p class="card-text"><small class="text-muted">Jan 2024 – Present</small></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title"><a href="https://apps.apple.com/us/app/u-s-bank-mobile-banking/id458734623" target="_blank">USBank</a></h3>
+                    <p class="card-text">iOS Developer, Minneapolis, MN</p>
+                    <p class="card-text"><small class="text-muted">Jan 2022 – Dec 2023</small></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title"><a href="https://apps.apple.com/us/app/hancock-whitney/id1295113813" target="_blank">Hancock Whitney</a></h3>
+                    <p class="card-text">iOS Developer, Metairie, LA</p>
+                    <p class="card-text"><small class="text-muted">Jan 2019 – Dec 2021</small></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Abbott</h3>
+                    <p class="card-text">Software Engineer, Hyderabad, IND</p>
+                    <p class="card-text"><small class="text-muted">June 2015 – May 2017</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Education</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">University of Missouri Kansas City</h3>
+                    <p class="card-text">Master's in Computer Science, Kansas City, MO</p>
+                    <p class="card-text"><small class="text-muted">Dec 2018</small></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">SRM University</h3>
+                    <p class="card-text">Bachelor's in Computer Science, Chennai, TN</p>
+                    <p class="card-text"><small class="text-muted">May 2015</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Get In Touch</h2>
+            <p>If you would like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <p>Email: <a href="mailto:bijjam998@gmail.com">mohanreddy3146@gmail.com</a> | Phone: +1 980-217-1289</p>
+            <p>
+                <a href="https://www.linkedin.com/in/mohanbijjam/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <!-- Removed copyright text -->
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
-
+</html> 
