@@ -1,27 +1,25 @@
-.section-links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-  gap: 1rem;
-  margin-top: 1rem;
+.profile-section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.btn {
-  padding: 0.6rem 1.2rem;
-  border: 2px solid #333;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s, color 0.3s;
+.profile-card {
+  background-color: #f1f5fb;
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 5px solid #007acc;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
 }
 
-.btn-outline-dark {
-  background-color: transparent;
+.profile-card h2 {
+  margin-top: 0;
+  font-size: 1.75rem;
+  color: #003e63;
+}
+
+.profile-card p, .profile-card li {
+  font-size: 1rem;
+  line-height: 1.7;
   color: #333;
-}
-
-.btn-outline-dark:hover {
-  background-color: #333;
-  color: white;
 }
